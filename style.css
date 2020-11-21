@@ -24,6 +24,10 @@
     padding: 15px 30px;
 }
 
+p {
+    margin: 1vw;
+}
+
 .imagemheader {
     background-color:goldenrod; 
 }
@@ -36,17 +40,62 @@ h2 {
     color: blanchedalmond;
 }
 
-.texto {
+.caixona {
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+    background-color: red;
+}
+
+.txt {
     font-family: Lora, serif;
     font-size: 1em;
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
-    text-align: left;
-    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0;
+
 }
 
-.imagem {
+
+.txtesquerda {
+    font-family: Lora, serif;
+    font-size: 1em;
+    background-color: rgb(129, 32, 32);
+    color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding: 2vw 0;
+    float: left;
+}
+
+.txtdireita {
+    font-family: Lora, serif;
+    font-size: 1em;
+    background-color: rgb(129, 32, 32);
+    color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 2vw 0;
+    float: right;
+}
+
+.imgesquerda {
     background-color: goldenrod;
+    float: left;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.imgdireita {
+    background-color: goldenrod;
+    float: right;
+    margin: 0px auto;
+    padding: 0px;
 }
 
 .clearfix:after {
