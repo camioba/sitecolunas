@@ -1,5 +1,5 @@
 .menu {
-    font-family: Lora, serif;
+    font-family: Robot-Light, sans-serif;
     text-align: center;       
 }
 
@@ -24,6 +24,13 @@
     padding: 15px 30px;
 }
 
+body {
+    font-family: Robot-Light, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5;
+}
+
 p {
     margin: 1vw;
 }
@@ -33,7 +40,7 @@ p {
 }
 
 h2 { 
-    font-family: Lora, serif;
+    font-family: Roboto-LightItalic, sans-serif;
     font-size: 2em;
     text-align: center;
     background-color: darkolivegreen;
@@ -48,20 +55,17 @@ h2 {
 }
 
 .txt {
-    font-family: Lora, serif;
-    font-size: 1em;
+    
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
-    text-align: center;
+    
     vertical-align: middle;
     margin: 0px auto;
     padding: 0;
 
 }
 
-
 .txtesquerda {
-    font-family: Lora, serif;
     font-size: 1em;
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
@@ -73,7 +77,6 @@ h2 {
 }
 
 .txtdireita {
-    font-family: Lora, serif;
     font-size: 1em;
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
@@ -104,4 +107,29 @@ h2 {
     clear: both;
     display: block;
     height: 0;
+}
+
+.banana {
+    margin-top: 10%;
+}
+
+footer {
+   
+    font-size: 0.8em;
+}
+
+.txtfooter {
+    background-color: darkolivegreen;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding: 2vw 0;
+    float: left;
+}
+
+.imagemfooter {
+    float: right;
+    background-color: darkolivegreen;
+
+
 }
