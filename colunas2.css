@@ -1,0 +1,61 @@
+.col100 {
+    width: 100%;
+}
+
+.col90 {
+    width: 90%;
+}
+
+.col80 {
+    width: 80%;
+    height: 50%;
+}
+
+.col75 {
+    width: 75%;
+    height: 60%;
+}
+
+.col66 {
+    width: 66.6666%;
+    height: 65%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col50 {
+    width: 50%;
+    height: 80%;
+}
+
+.col40 {
+    width: 40%;
+    height: 35%;
+}
+
+.col33 {
+    width: 33.33333%;
+    height: 65%;
+}
+
+.col25 {
+    width: 25%;
+    height: 60%;
+}
+
+.col20 {
+    width: 20%;
+    height: 50%;
+}
+
+.col10 {
+    width: 10%;
+    height: 35%;
+}
+
+.col5 {
+    width: 5%;
+}
+

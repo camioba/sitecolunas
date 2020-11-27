@@ -35,16 +35,14 @@ p {
     margin: 1vw;
 }
 
-.imagemheader {
-    background-color:goldenrod; 
-}
 
 h2 { 
     font-family: Roboto-LightItalic, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     background-color: darkolivegreen;
     color: blanchedalmond;
+    margin-top: 10px;
 }
 
 .caixona {
@@ -58,21 +56,42 @@ h2 {
     
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
-    
     vertical-align: middle;
     margin: 0px auto;
     padding: 0;
 
 }
 
-.txtesquerda {
+.cabecalhoesquerda {
     font-size: 1em;
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+}
+
+.cabecalhodireita {
+    font-size: 1em;
+    background-color: darkolivegree;
+    color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: right;
+    
+}
+.txtesquerda {
+    font-size: 0.9em;
     background-color: rgb(129, 32, 32);
     color: blanchedalmond;
     text-align: center;
     vertical-align: middle;
-    margin: auto;
-    padding: 2vw 0;
+    margin: 0px auto;
+    padding: 0px auto;
     float: left;
 }
 
@@ -83,7 +102,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
     margin: 0px auto;
-    padding: 2vw 0;
+    padding: 0px auto;
     float: right;
 }
 
@@ -92,6 +111,7 @@ h2 {
     float: left;
     margin: 0px auto;
     padding: 0px;
+   
 }
 
 .imgdireita {
@@ -113,23 +133,35 @@ h2 {
     margin-top: 10%;
 }
 
-footer {
-   
-    font-size: 0.8em;
+footer p { 
+    margin-top: 130px;
 }
 
 .txtfooter {
     background-color: darkolivegreen;
-    text-align: center;
-    vertical-align: middle;
-    margin: auto;
-    padding: 2vw 0;
+    font-size: 0.8em;
+    text-align: left;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+    height: 50%;
+}
+
+.meiofooter {
+    background-color: darkolivegreen;
+    margin: 0px auto;
+    height: 50%;
     float: left;
 }
 
 .imagemfooter {
-    float: right;
     background-color: darkolivegreen;
+    margin: 0px auto;
+    padding: 0px;
+    float: left;
+    height: 50%;   
+}
 
-
+.bananafooter {
+    margin-top: 75px;
 }
